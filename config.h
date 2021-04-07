@@ -9,7 +9,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "sans-serif:size=12" };
 static const char dmenufont[]       = "sans-serif:size=11";
 //background color
-static const char col_gray1[]       = "##282a36";
+static const char col_gray1[]       = "#282a36";
 //inactive window border color
 static const char col_gray2[]       = "#444444";
 //font color
