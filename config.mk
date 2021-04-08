@@ -9,11 +9,10 @@ MANPREFIX = ${PREFIX}/share/man
 
 
 
-X11INC = usr/include/X11 #For Void linux
-X11LIB = usr/lib/X11 # For Void linux
-
-# X11INC = /usr/X11R6/include # For other distributions
-# X11LIB = /usr/X11R6/lib # For other linux distributions
+# X11INC = usr/include/X11 #For Void linux
+# X11LIB = usr/lib/X11 # For Void linux
+X11INC = /usr/X11R6/include # For other distributions
+X11LIB = /usr/X11R6/lib # For other linux distributions
 
 # Xinerama, comment if you don't want it
 XINERAMALIBS  = -lXinerama
