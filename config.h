@@ -78,8 +78,9 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,	                XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY,			XK_e,	   spawn,	   SHCMD("$EDITOR") },
 	{ MODKEY,			XK_w,	   spawn,	   SHCMD("$BROWSER") },
-	{ MODKEY,			XK_e,	   spawn,	   SHCMD("$FILEMANAGER") },
+	{ MODKEY,			XK_r,	   spawn,	   SHCMD("$FILEMANAGER") },
 	{ 0,                            XK_Print,  spawn,          SHCMD("flameshot gui") },
 	{ MODKEY,                       XK_t,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
